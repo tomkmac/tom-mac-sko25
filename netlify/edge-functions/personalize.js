@@ -10,7 +10,7 @@ export default async (request, context) => {
             .on("#netlify-title", {
                 element: (element) => {
                     if (location) {
-                        element.setInnerContent(`The More You Know (About Tom) while you sit in ${location}?`);
+                        element.setInnerContent(`The More You Know (About Tom) while you sit in ${location}...`);
                     } else {
                         element.setInnerContent(`The More You Know (About Tom)`);
                     }
